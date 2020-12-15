@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!--メディアクエリ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--エンコード-->
+    <meta charset="utf-8">
+    <!--reset.css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--fontawesome-->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!--webフォント-->
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <title>デモページ</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <script type="text/javascript" src="js/snowfall.jquery.min.js"></script>
+      <script type="text/javascript">
+        jQuery(document).snowfall({
+          flakeCount : 2,		
+          flakeColor : '#FFF',		
+          flakeIndex : 999999,	
+          minSize : 50,				
+          maxSize : 50,				
+          minSpeed : 0.5,			
+          maxSpeed : 0.5,				
+          round : true,				
+          shadow : false,			
+          image : 'images/hanabira.png'	
+        });
+      </script>
+      <script type="text/javascript">
+        jQuery(document).snowfall({
+          flakeCount : 2,		
+          flakeColor : '#FFF',	
+          flakeIndex : 999999,	
+          minSize : 50,			
+          maxSize : 50,			
+          minSpeed : 0.5,		
+          maxSpeed : 0.5,				
+          round : true,			
+          shadow : false,			
+          image : 'images/hanabira1.png'		
+        });
+      </script>
+      <main>
+        <div class="relative">
+          <img class="relative__sakura" src="./images/sakura.png" alt="">
+          <img class="relative__sakura1" src="./images/sakura.png" alt="">
+          <img class="relative__sakura2" src="./images/sakura.png" alt="">
+        </div><!--/.relative-->
+        <div class="container">
+          <div class="sayan-container expadding-top">
+            <img class="sayan-container__logo" src="images/logo.png" alt="">
+          </div><!--/.sayan-container-->
+          <p class="coming"><span>2021</span>&nbsp;年&nbsp;<span>&nbsp;1&nbsp;</span>&nbsp;月&nbsp;<span>&nbsp;3&nbsp;</span>&nbsp;日&nbsp;<br>coming soon</p>
+          <div class="web-sp">
+            <img class="web-sp__image" src="./images/web-sp.jpg" alt="Web Special号の見どころ">
+            <p class="web-sp__explain">さやんに欠かせない野の花やゆらぎの風景が生き生きと動きます。自然豊かな野の花や木、海、空を見るだけで心も身体も元気になる、まるで「見るスキンケア」のような癒やしをお届けします。</p><!--/.web-sp__explain-->
+            <img class="web-sp__image1" src="./images/web-sp1.jpg" alt="人気企画も掲載予定">
+          </div><!--/.web-sp-->
+          <div class="view">
+            <img class="view__image" src="./images/web-sp2.jpg" alt="Web Special号をご覧いただく方法">
+            <div class="flex-box">
+              <div class="link">
+                <img class="link__image" src="./images/web-sp3.jpg" alt="EBM公式サイトから">
+                <a href="https://ebm-co.jp/" target="_blank" rel="noopener noreferrer"><button class="link__button">公式サイトはこちら</button><!--/.link__button--></a>
+                <img class="link__image" src="./images/web-sp5.jpg" alt="アプリから">
+                <a href="https://ebm-co.jp/app/" target="_blank" rel="noopener noreferrer"><button class="link__button">アプリのダウンロードはこちら</button><!--/.link__button--></a>
+              </div><!--/.link-->
+              <img class="flex-box__image" src="./images/web-sp7.jpg" alt=""><!--/.view__image-->
+            </div><!--/.flex-box-->
+          </div><!--/.view-->
+          <img class="present" src="./images/present.jpg" alt="">
+        </div><!--/.container-->
+      </main>
+    </div><!--/#wrap-->
+  </body>
+</html>
